@@ -1,4 +1,4 @@
-# Liqp &nbsp; [![Build Status](https://travis-ci.com/bkiers/Liqp.png)](https://travis-ci.com/bkiers/Liqp) [![Maven Central](https://img.shields.io/maven-central/v/nl.big-o/liqp.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22nl.big-o%22%20AND%20a%3A%22liqp%22)
+# liqp &nbsp; [![Build Status](https://travis-ci.com/bkiers/Liqp.png)](https://travis-ci.com/bkiers/Liqp) [![Maven Central](https://img.shields.io/maven-central/v/nl.big-o/liqp.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22nl.big-o%22%20AND%20a%3A%22liqp%22)
 
 A Java implementation of the [Liquid templating engine](https://shopify.github.io/liquid) backed
 up by an ANTLR grammar.
@@ -27,7 +27,7 @@ Add the following dependency:
 </dependency>
 ```
 
-Or clone this repository and run: `mvn install` which will create a JAR of Liqp
+Or clone this repository and run: `mvn install` which will create a JAR of liqp
 in your local Maven repository, as well as in the project's `target/` folder.
 
 # Usage
@@ -74,7 +74,7 @@ In Ruby, you'd render a template like this:
 @template.render( 'name' => 'tobi' )               # Renders the output => "hi tobi"
 ```
 
-With Liqp, the equivalent looks like this:
+With liqp, the equivalent looks like this:
 
 ```java
 Template template = Template.parse("hi {{name}}");
@@ -92,7 +92,7 @@ The template variables provided as parameters to `render(...)` can be:
 * a `Map<String, Object>`
 * or a JSON string
 
-The following examples are equivalent to the previous Liqp example:
+The following examples are equivalent to the previous liqp example:
 
 #### Map example
 

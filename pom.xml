@@ -4,7 +4,7 @@
   <artifactId>liqp</artifactId>
   <packaging>jar</packaging>
   <version>0.7.10-SNAPSHOT</version>
-  <name>Liqp</name>
+  <name>liqp</name>
   <description>A Java implementation of the Liquid templating engine backed up by an ANTLR grammar.</description>
   <url>https://github.com/bkiers/Liqp</url>
   <inceptionYear>2012</inceptionYear>
@@ -50,7 +50,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <antlr.version>3.5.1</antlr.version>
-    <antlr4.version>4.7.2</antlr4.version>
+    <antlr4.version>4.9.1</antlr4.version>
     <jackson.version>2.10.0</jackson.version>
     <jsoup.version>1.11.3</jsoup.version>
     <junit.version>4.13.1</junit.version>
@@ -59,7 +59,6 @@
   </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>org.antlr</groupId>
       <artifactId>antlr4-runtime</artifactId>
@@ -103,6 +102,18 @@
   <build>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>org.antlr</groupId>
+          <artifactId>antlr4-maven-plugin</artifactId>
+          <version>4.9.1</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>antlr4</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>

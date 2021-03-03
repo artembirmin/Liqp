@@ -5,7 +5,6 @@ import liqp.parser.Inspectable;
 import liqp.parser.LiquidSupport;
 
 import java.util.*;
-import java.util.Map;
 
 public class Sort extends Filter {
 

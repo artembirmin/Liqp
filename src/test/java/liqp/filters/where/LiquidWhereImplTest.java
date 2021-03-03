@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import liqp.ParseSettings;
 import liqp.Template;
 import liqp.parser.Flavor;
-import liqp.parser.Inspectable;
 import liqp.parser.LiquidSupport;
 import org.junit.Before;
 import org.junit.Test;

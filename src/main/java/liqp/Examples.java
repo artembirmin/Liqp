@@ -1,6 +1,5 @@
 package liqp;
 
-import java.io.File;
 import liqp.filters.Filter;
 import liqp.nodes.LNode;
 import liqp.tags.Tag;

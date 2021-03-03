@@ -2,8 +2,6 @@ package liqp.filters;
 
 import liqp.Template;
 import liqp.TemplateContext;
-import liqp.filters.where.PropertyResolverAdapter;
-import liqp.filters.where.PropertyResolverHelper;
 import liqp.parser.Inspectable;
 import liqp.parser.LiquidSupport;
 

@@ -6,7 +6,6 @@ import liqp.parser.LiquidSupport;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Map;
 
 /**
  * This filter requires <code>baseurl</code> parameter

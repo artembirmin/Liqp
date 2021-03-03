@@ -10,7 +10,6 @@ import java.util.Stack;
 
 import liqp.LValue;
 import liqp.TemplateContext;
-import liqp.exceptions.ExceededMaxIterationsException;
 import liqp.nodes.AtomNode;
 import liqp.nodes.BlockNode;
 import liqp.nodes.LNode;

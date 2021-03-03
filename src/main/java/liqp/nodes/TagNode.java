@@ -1,13 +1,9 @@
 package liqp.nodes;
 
 import liqp.TemplateContext;
-import liqp.parser.Flavor;
-import liqp.tags.Include;
 import liqp.tags.Tag;
 
-import java.io.File;
 import java.util.List;
-import java.util.Map;
 
 public class TagNode implements LNode {
 

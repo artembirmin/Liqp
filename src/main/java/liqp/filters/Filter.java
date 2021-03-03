@@ -49,6 +49,7 @@ public abstract class Filter extends LValue {
         registerFilter(new H());
         registerFilter(new Join());
         registerFilter(new Last());
+        registerFilter(new Lower_Camel_Case());
         registerFilter(new Lstrip());
         registerFilter(new liqp.filters.Map());
         registerFilter(new Minus());

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import liqp.TemplateContext;
-import liqp.tags.Tag;
 
 import static liqp.LValue.BREAK;
 import static liqp.LValue.CONTINUE;

@@ -8,16 +8,13 @@ import liqp.nodes.BlockNode;
 import liqp.nodes.*;
 import liqp.parser.Flavor;
 import liqp.tags.Tag;
-import liquid.parser.v4.LiquidParser;
 import liquid.parser.v4.LiquidParserBaseVisitor;
 import org.antlr.v4.runtime.misc.Interval;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import static liquid.parser.v4.LiquidParser.*;
 
